@@ -1,0 +1,13 @@
+[project]
+name = "uv-bare"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "polars[all]>=1.41.0",
+]
+
+[dependency-groups]
+dev = [
+    "marimo>=0.23.8",
+    "quak>=0.3.5",
+]
